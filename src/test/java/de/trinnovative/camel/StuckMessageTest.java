@@ -1,6 +1,5 @@
 package de.trinnovative.camel;
 
-import de.trinnovative.camel.camel.App;
 import org.apache.camel.EndpointInject;
 import org.apache.camel.Produce;
 import org.apache.camel.ProducerTemplate;
