@@ -19,9 +19,9 @@ import org.springframework.test.context.ContextConfiguration;
 import java.util.concurrent.TimeUnit;
 
 @CamelSpringTest
-@ContextConfiguration(classes = {App.class, StuckMessageTest.ContextConfig.class})
+@ContextConfiguration(classes = {App.class, StuckMessageOnBeanProducerTest.ContextConfig.class})
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
-public class StuckMessageTest {
+public class StuckMessageOnBeanProducerTest {
 
     @EndpointInject("mock:result")
     protected MockEndpoint resultEndpoint;
